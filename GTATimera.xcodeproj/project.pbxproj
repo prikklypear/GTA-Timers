@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D15B2DF1CFCA6A700957AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D15B2DD1CFCA6A700957AA4 /* Main.storyboard */; };
+		4D302DB11CCBA2C400B39F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DB01CCBA2C400B39F56 /* AppDelegate.swift */; };
+		4D302DB31CCBA2C400B39F56 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DB21CCBA2C400B39F56 /* homeViewController.swift */; };
+		4D302DB51CCBA2C400B39F56 /* setTimersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DB41CCBA2C400B39F56 /* setTimersViewController.swift */; };
+		4D302DBA1CCBA2C400B39F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D302DB91CCBA2C400B39F56 /* Assets.xcassets */; };
+		4D302DBD1CCBA2C400B39F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D302DBB1CCBA2C400B39F56 /* LaunchScreen.storyboard */; };
+		4D302DC81CCBA2C400B39F56 /* GTATimeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DC71CCBA2C400B39F56 /* GTATimeraTests.swift */; };
+		4D302DD31CCBA2C400B39F56 /* GTATimeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DD21CCBA2C400B39F56 /* GTATimeraUITests.swift */; };
+		4D302DE11CCBA57500B39F56 /* VIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DE01CCBA57500B39F56 /* VIPController.swift */; };
+		4D302DE31CCBCABB00B39F56 /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302DE21CCBCABB00B39F56 /* globals.swift */; };
+		4DA6B64F1CCEAEA8009D18D0 /* customTimers.ai in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B63D1CCEAEA8009D18D0 /* customTimers.ai */; };
+		4DA6B6501CCEAEA8009D18D0 /* customTimers.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B63E1CCEAEA8009D18D0 /* customTimers.png */; };
+		4DA6B6511CCEAEA8009D18D0 /* customTimers.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B63F1CCEAEA8009D18D0 /* customTimers.xcf */; };
+		4DA6B6521CCEAEA8009D18D0 /* customTimersa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6401CCEAEA8009D18D0 /* customTimersa.png */; };
+		4DA6B6531CCEAEA8009D18D0 /* GTA.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6411CCEAEA8009D18D0 /* GTA.png */; };
+		4DA6B6541CCEAEA8009D18D0 /* gtagrid.ai in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6421CCEAEA8009D18D0 /* gtagrid.ai */; };
+		4DA6B6551CCEAEA8009D18D0 /* gtagrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6431CCEAEA8009D18D0 /* gtagrid.png */; };
+		4DA6B6561CCEAEA8009D18D0 /* gtagridreset1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6441CCEAEA8009D18D0 /* gtagridreset1.png */; };
+		4DA6B6571CCEAEA8009D18D0 /* gtagridreset2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6451CCEAEA8009D18D0 /* gtagridreset2.png */; };
+		4DA6B6581CCEAEA8009D18D0 /* gtagridreset3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6461CCEAEA8009D18D0 /* gtagridreset3.png */; };
+		4DA6B6591CCEAEA8009D18D0 /* gtamap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6471CCEAEA8009D18D0 /* gtamap.jpg */; };
+		4DA6B65A1CCEAEA8009D18D0 /* michaelbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6481CCEAEA8009D18D0 /* michaelbg.png */; };
+		4DA6B65B1CCEAEA8009D18D0 /* online.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B6491CCEAEA8009D18D0 /* online.png */; };
+		4DA6B65C1CCEAEA8009D18D0 /* sanandreas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B64A1CCEAEA8009D18D0 /* sanandreas.png */; };
+		4DA6B65D1CCEAEA8009D18D0 /* Untitled.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B64B1CCEAEA8009D18D0 /* Untitled.xcf */; };
+		4DA6B65E1CCEAEA8009D18D0 /* vipGrid.ai in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B64C1CCEAEA8009D18D0 /* vipGrid.ai */; };
+		4DA6B65F1CCEAEA8009D18D0 /* vipGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B64D1CCEAEA8009D18D0 /* vipGrid.png */; };
+		4DA6B6601CCEAEA8009D18D0 /* vipGrid.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA6B64E1CCEAEA8009D18D0 /* vipGrid.xcf */; };
+		4DA6B6641CCEAF34009D18D0 /* gtaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6B6631CCEAF34009D18D0 /* gtaMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D302DC41CCBA2C400B39F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D302DA51CCBA2C400B39F56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D302DAC1CCBA2C400B39F56;
+			remoteInfo = GTATimera;
+		};
+		4D302DCF1CCBA2C400B39F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D302DA51CCBA2C400B39F56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D302DAC1CCBA2C400B39F56;
+			remoteInfo = GTATimera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D15B2DE1CFCA6A700957AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D302DAD1CCBA2C400B39F56 /* GTATimera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTATimera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D302DB01CCBA2C400B39F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D302DB21CCBA2C400B39F56 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		4D302DB41CCBA2C400B39F56 /* setTimersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTimersViewController.swift; sourceTree = "<group>"; };
+		4D302DB91CCBA2C400B39F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D302DBC1CCBA2C400B39F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D302DBE1CCBA2C400B39F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D302DC31CCBA2C400B39F56 /* GTATimeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTATimeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D302DC71CCBA2C400B39F56 /* GTATimeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTATimeraTests.swift; sourceTree = "<group>"; };
+		4D302DC91CCBA2C400B39F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D302DCE1CCBA2C400B39F56 /* GTATimeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTATimeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D302DD21CCBA2C400B39F56 /* GTATimeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTATimeraUITests.swift; sourceTree = "<group>"; };
+		4D302DD41CCBA2C400B39F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D302DE01CCBA57500B39F56 /* VIPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPController.swift; sourceTree = "<group>"; };
+		4D302DE21CCBCABB00B39F56 /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
+		4DA6B63D1CCEAEA8009D18D0 /* customTimers.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = customTimers.ai; sourceTree = "<group>"; };
+		4DA6B63E1CCEAEA8009D18D0 /* customTimers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customTimers.png; sourceTree = "<group>"; };
+		4DA6B63F1CCEAEA8009D18D0 /* customTimers.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = customTimers.xcf; sourceTree = "<group>"; };
+		4DA6B6401CCEAEA8009D18D0 /* customTimersa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customTimersa.png; sourceTree = "<group>"; };
+		4DA6B6411CCEAEA8009D18D0 /* GTA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GTA.png; sourceTree = "<group>"; };
+		4DA6B6421CCEAEA8009D18D0 /* gtagrid.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gtagrid.ai; sourceTree = "<group>"; };
+		4DA6B6431CCEAEA8009D18D0 /* gtagrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtagrid.png; sourceTree = "<group>"; };
+		4DA6B6441CCEAEA8009D18D0 /* gtagridreset1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtagridreset1.png; sourceTree = "<group>"; };
+		4DA6B6451CCEAEA8009D18D0 /* gtagridreset2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtagridreset2.png; sourceTree = "<group>"; };
+		4DA6B6461CCEAEA8009D18D0 /* gtagridreset3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtagridreset3.png; sourceTree = "<group>"; };
+		4DA6B6471CCEAEA8009D18D0 /* gtamap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gtamap.jpg; sourceTree = "<group>"; };
+		4DA6B6481CCEAEA8009D18D0 /* michaelbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michaelbg.png; sourceTree = "<group>"; };
+		4DA6B6491CCEAEA8009D18D0 /* online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online.png; sourceTree = "<group>"; };
+		4DA6B64A1CCEAEA8009D18D0 /* sanandreas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanandreas.png; sourceTree = "<group>"; };
+		4DA6B64B1CCEAEA8009D18D0 /* Untitled.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Untitled.xcf; sourceTree = "<group>"; };
+		4DA6B64C1CCEAEA8009D18D0 /* vipGrid.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vipGrid.ai; sourceTree = "<group>"; };
+		4DA6B64D1CCEAEA8009D18D0 /* vipGrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vipGrid.png; sourceTree = "<group>"; };
+		4DA6B64E1CCEAEA8009D18D0 /* vipGrid.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vipGrid.xcf; sourceTree = "<group>"; };
+		4DA6B6631CCEAF34009D18D0 /* gtaMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gtaMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D302DAA1CCBA2C400B39F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D302DC01CCBA2C400B39F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D302DCB1CCBA2C400B39F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D302DA41CCBA2C400B39F56 = {
+			isa = PBXGroup;
+			children = (
+				4D302DAF1CCBA2C400B39F56 /* GTATimera */,
+				4D302DC61CCBA2C400B39F56 /* GTATimeraTests */,
+				4D302DD11CCBA2C400B39F56 /* GTATimeraUITests */,
+				4D302DAE1CCBA2C400B39F56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D302DAE1CCBA2C400B39F56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D302DAD1CCBA2C400B39F56 /* GTATimera.app */,
+				4D302DC31CCBA2C400B39F56 /* GTATimeraTests.xctest */,
+				4D302DCE1CCBA2C400B39F56 /* GTATimeraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D302DAF1CCBA2C400B39F56 /* GTATimera */ = {
+			isa = PBXGroup;
+			children = (
+				4DA6B63C1CCEAE8F009D18D0 /* Supporting files */,
+				4D302DB01CCBA2C400B39F56 /* AppDelegate.swift */,
+				4D302DB21CCBA2C400B39F56 /* homeViewController.swift */,
+				4D302DB41CCBA2C400B39F56 /* setTimersViewController.swift */,
+				4D302DE21CCBCABB00B39F56 /* globals.swift */,
+				4D15B2DD1CFCA6A700957AA4 /* Main.storyboard */,
+				4DA6B6631CCEAF34009D18D0 /* gtaMap.swift */,
+				4D302DE01CCBA57500B39F56 /* VIPController.swift */,
+				4D302DB91CCBA2C400B39F56 /* Assets.xcassets */,
+				4D302DBB1CCBA2C400B39F56 /* LaunchScreen.storyboard */,
+				4D302DBE1CCBA2C400B39F56 /* Info.plist */,
+			);
+			path = GTATimera;
+			sourceTree = "<group>";
+		};
+		4D302DC61CCBA2C400B39F56 /* GTATimeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D302DC71CCBA2C400B39F56 /* GTATimeraTests.swift */,
+				4D302DC91CCBA2C400B39F56 /* Info.plist */,
+			);
+			path = GTATimeraTests;
+			sourceTree = "<group>";
+		};
+		4D302DD11CCBA2C400B39F56 /* GTATimeraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D302DD21CCBA2C400B39F56 /* GTATimeraUITests.swift */,
+				4D302DD41CCBA2C400B39F56 /* Info.plist */,
+			);
+			path = GTATimeraUITests;
+			sourceTree = "<group>";
+		};
+		4DA6B63C1CCEAE8F009D18D0 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA6B63D1CCEAEA8009D18D0 /* customTimers.ai */,
+				4DA6B63E1CCEAEA8009D18D0 /* customTimers.png */,
+				4DA6B63F1CCEAEA8009D18D0 /* customTimers.xcf */,
+				4DA6B6401CCEAEA8009D18D0 /* customTimersa.png */,
+				4DA6B6411CCEAEA8009D18D0 /* GTA.png */,
+				4DA6B6421CCEAEA8009D18D0 /* gtagrid.ai */,
+				4DA6B6431CCEAEA8009D18D0 /* gtagrid.png */,
+				4DA6B6441CCEAEA8009D18D0 /* gtagridreset1.png */,
+				4DA6B6451CCEAEA8009D18D0 /* gtagridreset2.png */,
+				4DA6B6461CCEAEA8009D18D0 /* gtagridreset3.png */,
+				4DA6B6471CCEAEA8009D18D0 /* gtamap.jpg */,
+				4DA6B6481CCEAEA8009D18D0 /* michaelbg.png */,
+				4DA6B6491CCEAEA8009D18D0 /* online.png */,
+				4DA6B64A1CCEAEA8009D18D0 /* sanandreas.png */,
+				4DA6B64B1CCEAEA8009D18D0 /* Untitled.xcf */,
+				4DA6B64C1CCEAEA8009D18D0 /* vipGrid.ai */,
+				4DA6B64D1CCEAEA8009D18D0 /* vipGrid.png */,
+				4DA6B64E1CCEAEA8009D18D0 /* vipGrid.xcf */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D302DAC1CCBA2C400B39F56 /* GTATimera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D302DD71CCBA2C400B39F56 /* Build configuration list for PBXNativeTarget "GTATimera" */;
+			buildPhases = (
+				4D302DA91CCBA2C400B39F56 /* Sources */,
+				4D302DAA1CCBA2C400B39F56 /* Frameworks */,
+				4D302DAB1CCBA2C400B39F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTATimera;
+			productName = GTATimera;
+			productReference = 4D302DAD1CCBA2C400B39F56 /* GTATimera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D302DC21CCBA2C400B39F56 /* GTATimeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D302DDA1CCBA2C400B39F56 /* Build configuration list for PBXNativeTarget "GTATimeraTests" */;
+			buildPhases = (
+				4D302DBF1CCBA2C400B39F56 /* Sources */,
+				4D302DC01CCBA2C400B39F56 /* Frameworks */,
+				4D302DC11CCBA2C400B39F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D302DC51CCBA2C400B39F56 /* PBXTargetDependency */,
+			);
+			name = GTATimeraTests;
+			productName = GTATimeraTests;
+			productReference = 4D302DC31CCBA2C400B39F56 /* GTATimeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D302DCD1CCBA2C400B39F56 /* GTATimeraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D302DDD1CCBA2C400B39F56 /* Build configuration list for PBXNativeTarget "GTATimeraUITests" */;
+			buildPhases = (
+				4D302DCA1CCBA2C400B39F56 /* Sources */,
+				4D302DCB1CCBA2C400B39F56 /* Frameworks */,
+				4D302DCC1CCBA2C400B39F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D302DD01CCBA2C400B39F56 /* PBXTargetDependency */,
+			);
+			name = GTATimeraUITests;
+			productName = GTATimeraUITests;
+			productReference = 4D302DCE1CCBA2C400B39F56 /* GTATimeraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D302DA51CCBA2C400B39F56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark Pearson";
+				TargetAttributes = {
+					4D302DAC1CCBA2C400B39F56 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J6FCA6DDGJ;
+					};
+					4D302DC21CCBA2C400B39F56 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4D302DAC1CCBA2C400B39F56;
+					};
+					4D302DCD1CCBA2C400B39F56 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4D302DAC1CCBA2C400B39F56;
+					};
+				};
+			};
+			buildConfigurationList = 4D302DA81CCBA2C400B39F56 /* Build configuration list for PBXProject "GTATimera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D302DA41CCBA2C400B39F56;
+			productRefGroup = 4D302DAE1CCBA2C400B39F56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D302DAC1CCBA2C400B39F56 /* GTATimera */,
+				4D302DC21CCBA2C400B39F56 /* GTATimeraTests */,
+				4D302DCD1CCBA2C400B39F56 /* GTATimeraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D302DAB1CCBA2C400B39F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D15B2DF1CFCA6A700957AA4 /* Main.storyboard in Resources */,
+				4D302DBD1CCBA2C400B39F56 /* LaunchScreen.storyboard in Resources */,
+				4DA6B6521CCEAEA8009D18D0 /* customTimersa.png in Resources */,
+				4DA6B65B1CCEAEA8009D18D0 /* online.png in Resources */,
+				4DA6B65F1CCEAEA8009D18D0 /* vipGrid.png in Resources */,
+				4DA6B65A1CCEAEA8009D18D0 /* michaelbg.png in Resources */,
+				4D302DBA1CCBA2C400B39F56 /* Assets.xcassets in Resources */,
+				4DA6B6571CCEAEA8009D18D0 /* gtagridreset2.png in Resources */,
+				4DA6B6561CCEAEA8009D18D0 /* gtagridreset1.png in Resources */,
+				4DA6B6591CCEAEA8009D18D0 /* gtamap.jpg in Resources */,
+				4DA6B65D1CCEAEA8009D18D0 /* Untitled.xcf in Resources */,
+				4DA6B6541CCEAEA8009D18D0 /* gtagrid.ai in Resources */,
+				4DA6B6511CCEAEA8009D18D0 /* customTimers.xcf in Resources */,
+				4DA6B64F1CCEAEA8009D18D0 /* customTimers.ai in Resources */,
+				4DA6B6581CCEAEA8009D18D0 /* gtagridreset3.png in Resources */,
+				4DA6B6551CCEAEA8009D18D0 /* gtagrid.png in Resources */,
+				4DA6B65E1CCEAEA8009D18D0 /* vipGrid.ai in Resources */,
+				4DA6B6501CCEAEA8009D18D0 /* customTimers.png in Resources */,
+				4DA6B6531CCEAEA8009D18D0 /* GTA.png in Resources */,
+				4DA6B6601CCEAEA8009D18D0 /* vipGrid.xcf in Resources */,
+				4DA6B65C1CCEAEA8009D18D0 /* sanandreas.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D302DC11CCBA2C400B39F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D302DCC1CCBA2C400B39F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D302DA91CCBA2C400B39F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D302DE31CCBCABB00B39F56 /* globals.swift in Sources */,
+				4D302DB51CCBA2C400B39F56 /* setTimersViewController.swift in Sources */,
+				4D302DE11CCBA57500B39F56 /* VIPController.swift in Sources */,
+				4DA6B6641CCEAF34009D18D0 /* gtaMap.swift in Sources */,
+				4D302DB11CCBA2C400B39F56 /* AppDelegate.swift in Sources */,
+				4D302DB31CCBA2C400B39F56 /* homeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D302DBF1CCBA2C400B39F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D302DC81CCBA2C400B39F56 /* GTATimeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D302DCA1CCBA2C400B39F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D302DD31CCBA2C400B39F56 /* GTATimeraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D302DC51CCBA2C400B39F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D302DAC1CCBA2C400B39F56 /* GTATimera */;
+			targetProxy = 4D302DC41CCBA2C400B39F56 /* PBXContainerItemProxy */;
+		};
+		4D302DD01CCBA2C400B39F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D302DAC1CCBA2C400B39F56 /* GTATimera */;
+			targetProxy = 4D302DCF1CCBA2C400B39F56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D15B2DD1CFCA6A700957AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D15B2DE1CFCA6A700957AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D302DBB1CCBA2C400B39F56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D302DBC1CCBA2C400B39F56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D302DD51CCBA2C400B39F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D302DD61CCBA2C400B39F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D302DD81CCBA2C400B39F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GTATimera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.splore.GTATimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D302DD91CCBA2C400B39F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GTATimera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.splore.GTATimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D302DDB1CCBA2C400B39F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTATimeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.splore.GTATimeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTATimera.app/GTATimera";
+			};
+			name = Debug;
+		};
+		4D302DDC1CCBA2C400B39F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTATimeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.splore.GTATimeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTATimera.app/GTATimera";
+			};
+			name = Release;
+		};
+		4D302DDE1CCBA2C400B39F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTATimeraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.splore.GTATimeraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTATimera;
+			};
+			name = Debug;
+		};
+		4D302DDF1CCBA2C400B39F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTATimeraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.splore.GTATimeraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTATimera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D302DA81CCBA2C400B39F56 /* Build configuration list for PBXProject "GTATimera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D302DD51CCBA2C400B39F56 /* Debug */,
+				4D302DD61CCBA2C400B39F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D302DD71CCBA2C400B39F56 /* Build configuration list for PBXNativeTarget "GTATimera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D302DD81CCBA2C400B39F56 /* Debug */,
+				4D302DD91CCBA2C400B39F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D302DDA1CCBA2C400B39F56 /* Build configuration list for PBXNativeTarget "GTATimeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D302DDB1CCBA2C400B39F56 /* Debug */,
+				4D302DDC1CCBA2C400B39F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D302DDD1CCBA2C400B39F56 /* Build configuration list for PBXNativeTarget "GTATimeraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D302DDE1CCBA2C400B39F56 /* Debug */,
+				4D302DDF1CCBA2C400B39F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D302DA51CCBA2C400B39F56 /* Project object */;
+}
